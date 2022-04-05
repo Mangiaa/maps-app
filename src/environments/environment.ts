@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'https://api.mapbox.com/geocoding/v5/mapbox.places/',
+  token: 'pk.eyJ1IjoibWFuZ2lhYSIsImEiOiJjbDEycmVhem4wMWJuM2dvMDhwbmVrMm45In0.4VwOD-_NQaeerBP3fL_xHA'
 };
 
 /*

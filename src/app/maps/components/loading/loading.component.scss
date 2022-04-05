@@ -1,0 +1,13 @@
+$color-mapscreen: rgb(0,0,0,0.8);
+
+.loading-map{
+
+  background-color: $color-mapscreen;
+  color: white;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+
+}

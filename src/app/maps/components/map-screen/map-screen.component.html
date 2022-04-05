@@ -1,0 +1,13 @@
+
+<div *ngIf="!isUserLocationReady; else templateReady">
+  <app-loading></app-loading>
+
+</div>
+<ng-template #templateReady>
+  <div class="test">
+
+    <button class="btn btn-light button-room" (click)="goToLocation()"><i class="material-icons" style="font-size:xx-large;">my_location</i></button>
+    <app-map-view></app-map-view>
+  </div>
+
+</ng-template>
